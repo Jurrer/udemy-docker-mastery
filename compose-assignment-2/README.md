@@ -13,7 +13,8 @@ It's always a good idea to do that so a new major version doesn't surprise you.
 - First you need to build a custom Dockerfile in this directory,
 `FROM drupal:9.3.13` NOTE: if it fails to build, try the latest 9 branch version with `FROM drupal:9`
 - Then RUN apt package manager command to install git: `apt-get update && apt-get install -y git`
-- Remember to cleanup after your apt install with `rm -rf /var/lib/apt/lists/*` and use `\` and `&&` properly.
+- Remember to cleanup after your apt install with `rm -rf /var/lib/apt/lists/*` and use `\` and `&&` properly. 
+TODO
 You can find examples of them in drupal official image. More on this below under Compose file.
 - Then change `WORKDIR /var/www/html/themes`
 - Then use git to clone the theme with:

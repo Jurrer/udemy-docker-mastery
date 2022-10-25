@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/v1%40service": "file:///home/ester/udemy-docker-mastery/k8s-yaml/app.yml"
+    }
+}
